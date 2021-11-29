@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - www.kangtk.xyz
+    - kangtk.xyz
     secretName: wordpress-tls
   rules:
-  - host: www.kangtk.xyz
+  - host: kangtk.xyz
   - http:
       paths:
       - path: /
