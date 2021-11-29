@@ -40,9 +40,9 @@ spec:
           - name: WORDPRESS_DB_NAME
             value: wordpress
           - name: WORDPRESS_DB_USER
-            value: root1@kang-db
+            value: root1@kanagtksql
           - name: WORDPRESS_DB_HOST
-            value: kang-db.mysql.database.azure.com
+            value: kanagtksql.mysql.database.azure.com
           - name: WORDPRESS_DB_PASSWORD
             value: It12345!
             # wordpress wp-config.php
